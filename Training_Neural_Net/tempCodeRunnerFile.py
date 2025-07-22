@@ -1,6 +1,0 @@
-rr, output)
-# plt.title("ReLU Activation Function")
-# plt.xlabel("Input")
-# plt.ylabel("Output")
-# plt.grid(True)
-# plt.show()
