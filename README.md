@@ -1,37 +1,44 @@
-# Pytorch Mastery
+---
 
-This repository is dedicated to mastering PyTorch, one of the most powerful deep learning frameworks. It is structured around the key concepts taught in the [DataCamp course: Introduction to Deep Learning with PyTorch](https://www.datacamp.com/courses/introduction-to-deep-learning-with-pytorch?utm_medium=organic_social&utm_campaign=sharewidget&utm_content=coursedetailpage&utm_source=copylink).
+# ⚡ PyTorch Mastery
+
+This repository documents my learning journey through the [Deep Learning in PyTorch Skill Track](https://app.datacamp.com/learn/skill-tracks/deep-learning-in-python) on DataCamp. It's designed to reinforce mastery over PyTorch and its applications in deep learning — from foundational training loops to advanced image generation with GANs and transformer-based NLP.
+
+---
+
+## 🧠 Skill Track Overview
+
+The complete track includes 6 comprehensive courses:
+1. **Introduction to Deep Learning with PyTorch**
+2. **Training Robust Neural Networks**
+3. **Image and Text Data with PyTorch**
+4. **Projects: Computer Vision with PyTorch**
+5. **Natural Language Processing with PyTorch**
+6. **Transformer Architectures with PyTorch**
 
 ---
 
 ## 🔥 Topics Covered
 
-### 1. Introduction to PyTorch
-- Understanding tensors and PyTorch data structures
-- Creating and manipulating tensors
-- Building your first neural network with linear layers
-- Understanding weights, layers, and parameters
+### 🏗 1. Building Blocks
+- Tensors, data structures, and gradients
+- Activation & loss functions (ReLU, Softmax, Cross-Entropy)
+- Training loops and optimization strategies
+- Transfer learning and layer freezing
 
-### 2. Neural Network Architecture & Hyperparameters
-- Activation functions: sigmoid, softmax, ReLU, leaky ReLU
-- Loss functions and model prediction evaluation
-- One-hot encoding and cross-entropy loss
-- Manual parameter updates and PyTorch optimizers
+### 🎨 2. Computer Vision
+- Convolutional Neural Networks (CNNs)
+- Data augmentation and multi-class classification
+- Object detection using Faster R-CNN
+- Segmentation with U-Net and Mask R-CNN
+- Image generation via GANs (DCGAN, FID evaluation)
 
-### 3. Training Neural Networks in PyTorch
-- Using `TensorDataset` and `DataLoader`
-- Writing a training loop
-- Applying loss functions like `MSELoss`
-- Implementing different activation functions
-- Tuning learning rate and momentum
-
-### 4. Evaluating and Improving Models
-- Layer initialization and transfer learning
-- Fine-tuning and freezing layers
-- Evaluating model accuracy and loss
-- Using `torchmetrics`
-- Reducing overfitting with dropout
-- Hyperparameter tuning with random search
+### 📖 3. NLP & Transformers
+- Text preprocessing, embeddings (TF-IDF, Bag-of-Words)
+- Text classification using CNN, RNN, LSTM, GRU
+- Text generation with RNNs, GANs, and GPT-2
+- BERT and Transformer architecture implementation
+- Attention mechanisms and encoder-decoder models
 
 ---
 
@@ -41,3 +48,18 @@ To clone this repository:
 
 ```bash
 git clone https://github.com/Bishal-Stha/Pytorch_Mastery.git
+```
+
+Each subfolder contains Jupyter notebooks, scripts, and notes tied to specific modules in the skill track — tracked and improved as part of my #30DaysOfMachineLearning challenge.
+
+---
+
+## 📚 My Goals
+
+- Build industry-grade models with PyTorch
+- Understand computer vision and NLP from scratch to deployment
+- Share learning with the community through public repos and daily posts
+
+Follow my progress and feel free to explore or contribute!
+
+---
